@@ -172,12 +172,13 @@
         let title = document.querySelector("h1");
         title.innerText;
         console.log(title);
-        title = title.innerText.slice(0, -1);
+        title.innerText = title.innerText.slice(0, -1);
         console.log(title);
       };
       let title = document.querySelector("h1");
+
       title.onclick = makeItClickable;
-      display: title;
+
       /* ESERCIZIO 10
          Crea una funzione che, al click sul footer, riveli l'URL del link interno come contenuto di un alert()
         */
